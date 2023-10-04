@@ -11,13 +11,13 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <router-link class="nav-link" :to="{name: 'pk_index'}">Player Killing</router-link>
+                    <router-link class="nav-link" active-class="active" :to="{name: 'pk_index'}">Player Killing</router-link>
                     </li>
                     <li class="nav-item">
-                    <router-link class="nav-link" :to="{name: 'record_index'}">Game Records</router-link>
+                    <router-link class="nav-link" active-class="active" :to="{name: 'record_index'}">Game Records</router-link>
                     </li>
                     <li class="nav-item">
-                    <router-link class="nav-link" :to="{name: 'ranklist_index'}">Ranking List</router-link>
+                    <router-link class="nav-link" active-class="active" :to="{name: 'ranklist_index'}">Ranking List</router-link>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
@@ -39,7 +39,8 @@
 </template>
 
 <script>
-
+export default {
+}
 </script>
 
 <style scoped>
