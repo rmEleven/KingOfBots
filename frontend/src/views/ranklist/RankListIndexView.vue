@@ -1,9 +1,17 @@
 <template>
-    <div>Ranking List</div>
+    <ContentField>
+        Ranking List
+    </ContentField>
 </template>
 
 <script>
+import ContentField from '../../components/ContentField.vue'
 
+export default {
+    components: {
+        ContentField,
+    }
+}
 </script>
 
 <style scoped>
